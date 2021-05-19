@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>poly_mokala.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Placemark>
+		<name>Mokala National Park</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						24.47557052490223,-28.995846336729,0 24.39630719899967,-29.07583655077454,0 24.38656362422944,-28.992958030541,0 24.33097729830974,-29.04291626127542,0 24.36361237287107,-29.09151830223384,0 24.31287419878498,-29.13144818727548,0 24.2621968834875,-29.10566405783438,0 24.22943085388894,-29.11346197926029,0 24.24320287674221,-29.17349888336588,0 24.27512867996342,-29.18068395302793,0 24.3061596362527,-29.21643907808646,0 24.37409564106695,-29.21720168839964,0 24.34876369063039,-29.19432585139056,0 24.38476638433525,-29.18649400143627,0 24.38642029004989,-29.1686429802511,0 24.40606515039018,-29.1400960542536,0 24.42813491469803,-29.13725057200973,0 24.41833987293391,-29.11582978096369,0 24.48698629828433,-29.07443070798021,0 24.49270593491313,-29.07442949613243,0 24.5074149688271,-29.05371311778767,0 24.50087925893807,-29.04442991226333,0 24.51068523848173,-29.03228009019479,0 24.47557052490223,-28.995846336729,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
